@@ -19,7 +19,7 @@ int main(int argc, char** argv) {
     while(argv[0][count] != '\0'){
         count++;
     }
-    cout << "The length of the name of the program is: " << count << endl;
+    cout << "The length of the name of the program is: " << count << endl; 
     cout << "The first letter in the program name is: " << argv[0][0] << endl;
     cout << endl;
 
